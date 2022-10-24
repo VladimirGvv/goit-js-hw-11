@@ -10,7 +10,9 @@
 input{
     width: 300px;
     height: 30px;
-    margin-right: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px 0px 0px 5px;
 }
 
 .gallery {
@@ -51,12 +53,14 @@ img {
     line-height: 0.2em;
     font-size: 0.7em;
 }
-/* button */
+
 .search-button {
-    width: 100px;
-    height: 35px;
-    border-radius: 4px;
-    border: transparent;
+    width: 40px;
+    height: 32px;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    background-color: #fff;
+    
 }
 .load-more {
     width: 40px;
@@ -66,4 +70,5 @@ img {
     border-radius: 50%;
     bottom: 20px;
     left: 10px;
+    border: transparent;
 }

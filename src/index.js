@@ -10,6 +10,8 @@ const searchBtn = document.querySelector('.search-button');
 const gallery = document.querySelector('.gallery'); 
 const loadBtn = document.querySelector('.load-more')
 
+
+
 let name = searchQuery.value;// q - термин для поиска. То, что будет вводить пользователь.
 let page = 0;
 let perPage = 40;
@@ -17,11 +19,11 @@ let perPage = 40;
 function clearAll() {
   gallery.innerHTML = '';
 };
+
 loadBtn.style.display = 'none';
 
 async function eventHandler(e) {
   e.preventDefault();
-  clearAll()
   loadBtn.style.display = 'none';
 
   page = 1;
