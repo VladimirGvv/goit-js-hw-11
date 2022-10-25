@@ -25,6 +25,7 @@ loadBtn.style.display = 'none';
 async function eventHandler(e) {
   e.preventDefault();
   loadBtn.style.display = 'none';
+  clearAll()
 
   page = 1;
   name = searchQuery.value;
